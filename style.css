@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+select {
+    width: 20%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+  
+.feed-form input {
+    height: 54px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+}
+  
+.button_submit:hover, .feed-form input:hover {
+    transform: scale(1.009);
+    box-shadow: 0px 0px 3px 0px #212529;
+}
+  
+.button_submit {
+    width: 50%;
+    height: 54px;
+    font-size: 14px;
+    color: white;
+    background: rgb(103, 103, 103);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#signImg {
+    width: 70px;
+}
+
+.signInfo {
+    display:inline-flex;
+}
+
+.infoImg {
+    width: 40px;
+    padding-top: 10px;
+}
+
+.infoDiv {
+    padding: 10px 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.infoTitle {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-right: -15px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(-180deg);
+}
+
+.infoTxt {
+    font-weight: 900; 
+}
+
+#signSummary {
+    margin-top: 10px;
+    display: inline-block;
+    width:80%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#results {
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 20px;
+}
