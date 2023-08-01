@@ -44,13 +44,26 @@ async function getZodiacInfo() {
     if (zodiacInfo) {
       const sign = zodiacInfo.find(sign => sign.name.toLowerCase() === zodiacSignName.toLowerCase());
       if (sign) {
-        document.querySelector('#elementImg').src = `images/elements/${sign.element}.png`
-        document.querySelector('#elementTxt').innerHTML = `${sign.element}`
+
+        document.querySelector('.signInfo').innerHTML = `<div class="infoBlock"><p class="infoTitle">ELEMENT</p><div id="signElement" class="infoDiv"><img id="elementImg" class="infoImg" src="images/elements/${sign.element}.png"><p id="elementTxt" class="infoTxt">${sign.element}</p></div></div>`
+        document.querySelector('.signInfo').innerHTML += `<div class="infoBlock"><p class="infoTitle">PLANET</p><div id="signPlanet" class="infoDiv"><img id="planetImg" class="infoImg" src="images/planets/${sign.planet}.png"><p id="planetTxt" class="infoTxt">${sign.element}</p></div></div>`
+        document.querySelector('.signInfo').innerHTML += `<div class="infoBlock"><p class="infoTitle">STONE</p><div id="signStone" class="infoDiv"><img id="stoneImg" src="images/stones/${sign.stone}.png"><p id="stoneTxt" class="infoTxt">${sign.stone}</p></div></div>`
+
 
         document.querySelector('#planetImg').src = `images/planets/${sign.planet}.png`
         document.querySelector('#planetTxt').innerHTML = `${sign.planet}`
 
+
+        document.querySelector('#qualitiesTxt').innerHTML = `${sign.qualities.join(`<br>`)}`
+        document.querySelector('#defaultsTxt').innerHTML = `${sign.defaults.join(`<br>`)}`
+
         document.querySelector('#signSummary').innerHTML = sign.summary
+
+        document.querySelector('.famousPeople').innerHTML = ''
+
+        for (let i = 0 ; i < sign.famousPeople.length ; i++) {
+          document.querySelector('.famousPeople').innerHTML += `<div class="infoBlock"><p class="famousName">${sign.famousPeople[i].name}</p><div id="famousPerson" class="infoDiv"><img class="famousImg" src="images/people/${sign.famousPeople[i].name.replace(/\s/g,'')}.png"><p class="famousBirthdate">${sign.famousPeople[i].birthday}</p></div></div>`
+        }
 
       } else {
         console.log("Zodiac sign not found.");
@@ -67,5 +80,25 @@ async function getZodiacInfo() {
     document.querySelector('#signTxt').innerHTML = zodiacSign
     document.querySelector('#signImg').src = `images/signs/${zodiacSign}.png`
     printZodiacInfo(zodiacSign)
+    getHoroscope(zodiacSign)
 }  
-  
+
+
+const getHoroscope = async (sign) => {
+    const url = `https://daily-horoscope-api.p.rapidapi.com/api/Daily-Horoscope-English/?zodiacSign=${sign}&timePeriod=today`;
+    const options = {
+      method: 'GET',
+      headers: {
+        'X-RapidAPI-Key': '908e1d5eb2mshc87084789b2ee77p13dcb3jsne6ebff2d7301',
+        'X-RapidAPI-Host': 'daily-horoscope-api.p.rapidapi.com'
+      }
+    };
+    
+    try {
+      const response = await fetch(url, options);
+      const result = await response.text();
+      console.log(result);
+    } catch (error) {
+      console.error(error);
+    }
+}

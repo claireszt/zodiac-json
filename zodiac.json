@@ -5,84 +5,264 @@
 		"element": "Fire",
 		"stone": "Diamond",
 		"planet": "Mars",
-		"summary": "Aries, symbolized by the Ram. People born under this sign are known for their confidence, ambition, and competitive nature. They are natural-born leaders who love taking the initiative in various situations. Aries individuals have a strong desire for adventure and often exhibit a fearless and energetic spirit. They are not afraid to face challenges head-on and can be very determined to achieve their goals."
+		"summary": "Aries, symbolized by the Ram. People born under this sign are known for their confidence, ambition, and competitive nature. They are natural-born leaders who love taking the initiative in various situations. Aries individuals have a strong desire for adventure and often exhibit a fearless and energetic spirit.",
+		"qualities": [
+		  "Courageous",
+		  "Passionate",
+		  "Determined"
+		],
+		"defaults": [
+		  "Impatient",
+		  "Impulsive",
+		  "Stubborn"
+		],
+		"famousPeople": [
+		  { "name": "Lady Gaga", "birthday": "March 28" },
+		  { "name": "Leonardo da Vinci", "birthday": "April 15" },
+		  { "name": "Robert Downey Jr.", "birthday": "April 4" }
+		]
 	  },
 	  {
 		"name": "Taurus",
 		"element": "Earth",
 		"stone": "Emerald",
 		"planet": "Venus",
-		"summary": "Taurus, represented by the Bull, is an earth sign known for its stability, determination, and strong will. Taureans are reliable individuals with a practical approach to life. They have a deep appreciation for the finer things in life and enjoy surrounding themselves with beauty and comfort. Taurus individuals are patient and methodical in their endeavors and often exhibit a strong sense of loyalty and dedication to their friends and family."
+		"summary": "Taurus, represented by the Bull, is an earth sign known for its stability, determination, and strong will. Taureans are reliable individuals with a practical approach to life. They have a deep appreciation for the finer things in life and enjoy surrounding themselves with beauty and comfort. Taurus individuals are patient and methodical in their endeavors and often exhibit a strong sense of loyalty and dedication to their friends and family.",
+		"qualities": [
+		  "Patient",
+		  "Loyal",
+		  "Determined"
+		],
+		"defaults": [
+		  "Stubborn",
+		  "Possessive",
+		  "Resistant to change"
+		],
+		"famousPeople": [
+		  { "name": "Adele", "birthday": "May 5" },
+		  { "name": "George Clooney", "birthday": "May 6" },
+		  { "name": "Queen Elizabeth II", "birthday": "April 21" }
+		]
 	  },
 	  {
 		"name": "Gemini",
 		"element": "Air",
 		"stone": "Agate",
 		"planet": "Mercury",
-		"summary": "Gemini, symbolized by the Twins, is an air sign known for its versatility, curiosity, and excellent communication skills. Geminis are quick-witted and adaptive individuals who love learning and exploring new ideas. They are sociable and enjoy interacting with others, making them excellent conversationalists. However, their dual nature can sometimes lead to indecisiveness and restlessness."
+		"summary": "Gemini, symbolized by the Twins, is an air sign known for its versatility, curiosity, and excellent communication skills. Geminis are quick-witted and adaptive individuals who love learning and exploring new ideas. They are sociable and enjoy interacting with others, making them excellent conversationalists. However, their dual nature can sometimes lead to indecisiveness and restlessness.",
+		"qualities": [
+		  "Adaptable",
+		  "Curious",
+		  "Expressive"
+		],
+		"defaults": [
+		  "Indecisive",
+		  "Restless",
+		  "Superficial"
+		],
+		"famousPeople": [
+		  { "name": "Johnny Depp", "birthday": "June 9" },
+		  { "name": "Marilyn Monroe", "birthday": "June 1" },
+		  { "name": "Angelina Jolie", "birthday": "June 4" }
+		]
 	  },
 	  {
 		"name": "Cancer",
 		"element": "Water",
 		"stone": "Pearl",
 		"planet": "Moon",
-		"summary": "Cancer, represented by the Crab, is a water sign known for its emotional depth, nurturing nature, and strong intuition. Cancerians are deeply empathetic individuals who value their family and home above all else. They have a strong sense of protection towards their loved ones and can be highly intuitive, often picking up on the emotions of others. Cancer individuals are also imaginative and creative, seeking emotional security in their relationships and surroundings."
+		"summary": "Cancer, represented by the Crab, is a water sign known for its emotional depth, nurturing nature, and strong intuition. Cancerians are deeply empathetic individuals who value their family and home above all else. They have a strong sense of protection towards their loved ones and can be highly intuitive, often picking up on the emotions of others. Cancer individuals are also imaginative and creative, seeking emotional security in their relationships and surroundings.",
+		"qualities": [
+		  "Compassionate",
+		  "Protective",
+		  "Intuitive"
+		],
+		"defaults": [
+		  "Overemotional",
+		  "Moody",
+		  "Clingy"
+		],
+		"famousPeople": [
+		  { "name": "Tom Hanks", "birthday": "July 9" },
+		  { "name": "Princess Diana", "birthday": "July 1" },
+		  { "name": "Selena Gomez", "birthday": "July 22" }
+		]
 	  },
 	  {
 		"name": "Leo",
 		"element": "Fire",
 		"stone": "Ruby",
 		"planet": "Sun",
-		"summary": "Leo, symbolized by the Lion, is a fire sign known for its confidence, generosity, and leadership qualities. Leos love being in the spotlight and often have a magnetic personality that draws others towards them. They are creative and expressive individuals with a passion for self-expression. Leos are fiercely loyal to their friends and loved ones, and their warm-hearted nature makes them natural-born leaders and friends."
+		"summary": "Leo, symbolized by the Lion, is a fire sign known for its confidence, generosity, and leadership qualities. Leos love being in the spotlight and often have a magnetic personality that draws others towards them. They are creative and expressive individuals with a passion for self-expression. Leos are fiercely loyal to their friends and loved ones, and their warm-hearted nature makes them natural-born leaders and friends.",
+		"qualities": [
+		  "Confident",
+		  "Generous",
+		  "Charismatic"
+		],
+		"defaults": [
+		  "Arrogant",
+		  "Egotistical",
+		  "Dominating"
+		],
+		"famousPeople": [
+		  { "name": "Barack Obama", "birthday": "August 4" },
+		  { "name": "Madonna", "birthday": "August 16" },
+		  { "name": "Daniel Radcliffe", "birthday": "July 23" }
+		]
 	  },
 	  {
 		"name": "Virgo",
 		"element": "Earth",
 		"stone": "Sapphire",
 		"planet": "Mercury",
-		"summary": "Virgo, represented by the Virgin, is an earth sign known for its practicality, analytical nature, and attention to detail. Virgos have a methodical approach to life and possess a strong sense of responsibility and service towards others. They are reliable and hardworking individuals who often seek perfection in their endeavors. Virgo individuals are also excellent problem-solvers and organizers, making them valuable assets in both personal and professional settings."
+		"summary": "Virgo, represented by the Virgin, is an earth sign known for its practicality, analytical nature, and attention to detail. Virgos have a methodical approach to life and possess a strong sense of responsibility and service towards others. They are reliable and hardworking individuals who often seek perfection in their endeavors. Virgo individuals are also excellent problem-solvers and organizers, making them valuable assets in both personal and professional settings.",
+		"qualities": [
+		  "Analytical",
+		  "Reliable",
+		  "Modest"
+		],
+		"defaults": [
+		  "Overcritical",
+		  "Fussy",
+		  "Rigid"
+		],
+		"famousPeople": [
+		  { "name": "Beyoncé", "birthday": "September 4" },
+		  { "name": "Keanu Reeves", "birthday": "September 2" },
+		  { "name": "Mother Teresa", "birthday": "August 26" }
+		]
 	  },
 	  {
 		"name": "Libra",
 		"element": "Air",
 		"stone": "Opal",
 		"planet": "Venus",
-		"summary": "Libra, symbolized by the Scales, is an air sign known for its sense of balance, diplomacy, and social charm. Librans are natural peacemakers who strive to create harmony in their relationships and surroundings. They have a strong sense of fairness and justice and often act as mediators in conflicts. Libra individuals are also artistic and appreciate beauty in all forms, including art, music, and nature."
+		"summary": "Libra, symbolized by the Scales, is an air sign known for its sense of balance, diplomacy, and social charm. Librans are natural peacemakers who strive to create harmony in their relationships and surroundings. They have a strong sense of fairness and justice and often act as mediators in conflicts. Libra individuals are also artistic and appreciate beauty in all forms, including art, music, and nature.",
+		"qualities": [
+		  "Charming",
+		  "Diplomatic",
+		  "Fair-minded"
+		],
+		"defaults": [
+		  "Indecisive",
+		  "Superficial",
+		  "Avoids confrontation"
+		],
+		"famousPeople": [
+		  { "name": "Kim Kardashian", "birthday": "October 21" },
+		  { "name": "Mahatma Gandhi", "birthday": "October 2" },
+		  { "name": "Will Smith", "birthday": "September 25" }
+		]
 	  },
 	  {
 		"name": "Scorpio",
 		"element": "Water",
 		"stone": "Topaz",
 		"planet": "Pluto",
-		"summary": "Scorpio, represented by the Scorpion, is a water sign known for its intensity, passion, and determination. Scorpios have a deep emotional nature and can be highly perceptive, often able to uncover hidden truths and motivations. They are fiercely loyal and protective of their loved ones and can exhibit a strong willpower when pursuing their goals. Scorpio individuals are also known for their magnetic and mysterious aura."
+		"summary": "Scorpio, represented by the Scorpion, is a water sign known for its intensity, passion, and determination. Scorpios have a deep emotional nature and can be highly perceptive, often able to uncover hidden truths and motivations. They are fiercely loyal and protective of their loved ones and can exhibit a strong willpower when pursuing their goals. Scorpio individuals are also known for their magnetic and mysterious aura.",
+		"qualities": [
+		  "Intense",
+		  "Determined",
+		  "Loyal"
+		],
+		"defaults": [
+		  "Jealous",
+		  "Possessive",
+		  "Resentful"
+		],
+		"famousPeople": [
+		  { "name": "Leonardo DiCaprio", "birthday": "November 11" },
+		  { "name": "Marie Curie", "birthday": "November 7" },
+		  { "name": "Bill Gates", "birthday": "October 28" }
+		]
 	  },
 	  {
 		"name": "Sagittarius",
 		"element": "Fire",
 		"stone": "Turquoise",
 		"planet": "Jupiter",
-		"summary": "Sagittarius, symbolized by the Archer, is a fire sign known for its adventurous spirit, optimism, and love for exploration. Sagittarians are always seeking new experiences and are open to learning from different cultures and perspectives. They have a strong sense of humor and a positive outlook on life, making them delightful companions. Sagittarius individuals are also known for their honesty and can be straightforward in their communication."
+		"summary": "Sagittarius, symbolized by the Archer, is a fire sign known for its adventurous spirit, optimism, and love for exploration. Sagittarians are always seeking new experiences and are open to learning from different cultures and perspectives. They have a strong sense of humor and a positive outlook on life, making them delightful companions. Sagittarius individuals are also known for their honesty and can be straightforward in their communication.",
+		"qualities": [
+		  "Adventurous",
+		  "Optimistic",
+		  "Honest"
+		],
+		"defaults": [
+		  "Impatient",
+		  "Careless",
+		  "Blunt"
+		],
+		"famousPeople": [
+		  { "name": "Winston Churchill", "birthday": "November 30" },
+		  { "name": "Brad Pitt", "birthday": "December 18" },
+		  { "name": "Taylor Swift", "birthday": "December 13" }
+		]
 	  },
 	  {
 		"name": "Capricorn",
 		"element": "Earth",
 		"stone": "Garnet",
 		"planet": "Saturn",
-		"summary": "Capricorn, represented by the Goat, is an earth sign known for its ambition, discipline, and practicality. Capricorns are hardworking and goal-oriented individuals who value tradition and structure. They are determined and patient in pursuing their ambitions and are often successful in their endeavors. Capricorn individuals are also reliable and responsible, making them natural leaders and mentors in both personal and professional settings."
+		"summary": "Capricorn, represented by the Goat, is an earth sign known for its ambition, discipline, and practicality. Capricorns are hardworking and goal-oriented individuals who value tradition and structure. They are determined and patient in pursuing their ambitions and are often successful in their endeavors. Capricorn individuals are also reliable and responsible, making them natural leaders and mentors in both personal and professional settings.",
+		"qualities": [
+		  "Ambitious",
+		  "Disciplined",
+		  "Responsible"
+		],
+		"defaults": [
+		  "Pessimistic",
+		  "Stubborn",
+		  "Reserved"
+		],
+		"famousPeople": [
+		  { "name": "Michelle Obama", "birthday": "January 17" },
+		  { "name": "Elvis Presley", "birthday": "January 8" },
+		  { "name": "Isaac Newton", "birthday": "January 4" }
+		]
 	  },
 	  {
 		"name": "Aquarius",
 		"element": "Air",
 		"stone": "Amethyst",
 		"planet": "Uranus",
-		"summary": "Aquarius, symbolized by the Water Bearer, is an air sign known for its independence, innovation, and humanitarian values. Aquarians are often ahead of their time and have a unique and unconventional approach to life. They are open-minded and visionary individuals who are passionate about making a positive impact on society. Aquarius individuals are also known for their friendly and sociable nature, valuing their friendships and social connections."
+		"summary": "Aquarius, symbolized by the Water Bearer, is an air sign known for its independence, innovation, and humanitarian values. Aquarians are often ahead of their time and have a unique and unconventional approach to life. They are open-minded and visionary individuals who are passionate about making a positive impact on society. Aquarius individuals are also known for their friendly and sociable nature, valuing their friendships and social connections.",
+		"qualities": [
+		  "Innovative",
+		  "Humanitarian",
+		  "Friendly"
+		],
+		"defaults": [
+		  "Rebellious",
+		  "Detached",
+		  "Unpredictable"
+		],
+		"famousPeople": [
+		  { "name": "Oprah Winfrey", "birthday": "January 29" },
+		  { "name": "Abraham Lincoln", "birthday": "February 12" },
+		  { "name": "Charles Darwin", "birthday": "February 12" }
+		]
 	  },
 	  {
 		"name": "Pisces",
 		"element": "Water",
 		"stone": "Aquamarine",
 		"planet": "Neptune",
-		"summary": "Pisces, represented by two Fishes swimming in opposite directions, is a water sign known for its sensitivity, compassion, and artistic nature. Pisceans are deeply in tune with their emotions and often exhibit a strong sense of empathy towards others. They have a vivid imagination and a creative spirit, finding solace in artistic pursuits and self-expression. Pisces individuals are also spiritual and intuitive, often seeking deeper meanings in life."
+		"summary": "Pisces, represented by two Fishes swimming in opposite directions, is a water sign known for its sensitivity, compassion, and artistic nature. Pisceans are deeply in tune with their emotions and often exhibit a strong sense of empathy towards others. They have a vivid imagination and a creative spirit, finding solace in artistic pursuits and self-expression. Pisces individuals are also spiritual and intuitive, often seeking deeper meanings in life.",
+		"qualities": [
+		  "Compassionate",
+		  "Artistic",
+		  "Intuitive"
+		],
+		"defaults": [
+		  "Overly sensitive",
+		  "Indecisive",
+		  "Escapist"
+		],
+		"famousPeople": [
+		  { "name": "Rihanna", "birthday": "February 20" },
+		  { "name": "Albert Einstein", "birthday": "March 14" },
+		  { "name": "Steve Jobs", "birthday": "February 24" }
+		]
 	  }
 	]
   }
